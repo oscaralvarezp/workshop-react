@@ -25,7 +25,6 @@ export default function LaunchDetails() {
       .catch(console.error)
   }, [id]);
 
-  console.log(launchDetail);
   return (
     <>
       {launchDetail.length === 0 ? (
